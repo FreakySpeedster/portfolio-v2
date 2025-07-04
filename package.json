@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-v2",
+  "version": "1.0.0",
+  "description": "Portfolio website built with vanilla JavaScript, GSAP, and Tailwind CSS",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "serve": "npx http-server . -p 3000"
+  },
+  "keywords": ["portfolio", "vanilla-js", "gsap", "tailwind"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2"
+  }
+}
