@@ -10,9 +10,10 @@ module.exports = {
         'sans': ['Geist', 'sans-serif'],
       },
       colors: {
-        'primary': '#3B82F6',
+        'primary': '#000',
         'secondary': '#1F2937',
         'accent': '#F59E0B',
+        'white': '#fff',
       },
     },
   },
